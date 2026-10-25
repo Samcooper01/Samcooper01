@@ -76,15 +76,9 @@ A matrix-vector multiply unit: eight multiply-accumulate lanes behind input
 queues, pulling operands over an Avalon memory-mapped interface, constrained to
 200 MHz and checked in the timing analyzer.
 
-### 🧮 Processors and toolchains
+### 🧮 Processors
 
 [**ECE552-5-Stage-Pipelined-Processor**](https://github.com/Samcooper01/ECE552-5-Stage-Pipelined-Processor)
 A five-stage pipelined processor in Verilog, with forwarding, branch prediction
 and its own memory system: caches built twice, once direct-mapped and once
 set-associative, so the two could be compared.
-
-[**SCC-16**](https://github.com/topics/scc-16)
-A 16-bit instruction set I made up, then built everything around: the control
-unit, arithmetic logic unit, register file and memory unit in SystemVerilog, an
-instruction-set simulator in C to check them against, an assembler, and a
-compiler that got about half finished.

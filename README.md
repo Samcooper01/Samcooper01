@@ -97,4 +97,4 @@ queues, pulling operands over an Avalon memory-mapped interface, constrained to
 [**ECE552-5-Stage-Pipelined-Processor**](https://github.com/Samcooper01/ECE552-5-Stage-Pipelined-Processor)
 A five-stage pipelined processor in Verilog, with forwarding, branch prediction
 and its own memory system: caches built twice, once direct-mapped and once
-set-associative, so the two could be compared.
+set-associative, so the two could be compared. A project for ECE 552.

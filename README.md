@@ -1,6 +1,6 @@
 ## Sam Cooper
 
-I'm a physical design engineer at IBM. Most of what's here is me working on the
+Hey, I'm Sam, a physical design engineer at IBM. Most of what's here is me working on the
 same problems with open tools on my own time, usually using OpenROAD on the ASAP7
 process, plus some older school projects.
 

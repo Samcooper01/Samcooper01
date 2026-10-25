@@ -6,6 +6,7 @@ from school. Lately that's mostly been machine learning applied to the chip
 flow, and using open-source tools like OpenROAD to experiment.
 
 Always happy to talk chips, physical design, or open-source silicon. You can find me on [LinkedIn](https://www.linkedin.com/in/sam-cooper12).
+I also run [Chipbase](https://samcooper01.github.io/chipbase/), a free site for learning physical design.
 
 ---
 

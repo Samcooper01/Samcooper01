@@ -73,3 +73,8 @@ A 16-bit instruction set I made up, then built everything around: the control
 unit, arithmetic logic unit, register file and memory unit in SystemVerilog, an
 instruction-set simulator in C to check them against, an assembler, and a
 compiler that got about half finished.
+
+[**ECE552-5-Stage-Pipelined-Processor**](https://github.com/Samcooper01/ECE552-5-Stage-Pipelined-Processor)
+A five-stage pipelined processor in Verilog, with forwarding, branch prediction
+and its own memory system: caches built twice, once direct-mapped and once
+set-associative, so the two could be compared.

@@ -1,4 +1,4 @@
-### 👋 About me
+## 👋 About me
 
 Hey! I'm Sam, and I work as a physical design engineer at IBM. Day to day, that
 means taking advanced-node chips from floorplan through sign-off, at both the
@@ -15,9 +15,9 @@ Always happy to talk chips, physical design, or open-source silicon. You can fin
 
 ---
 
-### 🔬 Projects
+## 🔬 Projects
 
-#### 🧱 Physical design
+### 🧱 Physical design
 
 [**rl-macro-placer**](https://github.com/Samcooper01/rl-macro-placer)
 A from-scratch reimplementation of Google's reinforcement learning macro placer
@@ -74,7 +74,7 @@ A block cipher I took from a C golden model through synthesis, static timing and
 power analysis, in two variants to see what reorganizing the key logic bought.
 Done over a weekend.
 
-#### 🔌 Programmable logic
+### 🔌 Programmable logic
 
 [**ECE554-Capstone-Project**](https://github.com/Samcooper01/ECE554-Capstone-Project)
 Real-time object detection and laser targeting on a Cyclone V board: a camera
@@ -102,7 +102,7 @@ compared on resource usage.
 A maze-solving robot. Infrared, hall-effect and gyro sensors in, motor drivers
 out, and a proportional-integral-derivative controller keeping it off the walls.
 
-#### 🧮 Processors and toolchains
+### 🧮 Processors and toolchains
 
 [**ECE552-5-Stage-Pipelined-Processor**](https://github.com/Samcooper01/ECE552-5-Stage-Pipelined-Processor)
 A five-stage pipelined processor in Verilog, with forwarding, branch prediction
@@ -115,7 +115,7 @@ unit, arithmetic logic unit, register file and memory unit in SystemVerilog, an
 instruction-set simulator in C to check them against, an assembler, and a
 compiler that got about half finished.
 
-#### 💻 Programming
+### 💻 Programming
 
 [**heap-alloc-dealloc**](https://github.com/Samcooper01/heap-alloc-dealloc)
 A heap allocator in C: best-fit allocation, with free blocks coalesced

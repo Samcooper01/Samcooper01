@@ -77,13 +77,3 @@ A 16-bit instruction set I made up, then built everything around: the control
 unit, arithmetic logic unit, register file and memory unit in SystemVerilog, an
 instruction-set simulator in C to check them against, an assembler, and a
 compiler that got about half finished.
-
----
-
-### 🛠 Tools I use
-
-Cadence (Genus, Innovus, Tempus, Voltus, Quantus, Cerebrus), Synopsys (Design
-Compiler, Formality), Calibre, OpenROAD, Yosys, KLayout. Mostly Tcl and Python,
-Verilog and SystemVerilog, some C and C++.
-
-M.S. and B.S. from the University of Wisconsin-Madison.

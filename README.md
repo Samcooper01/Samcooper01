@@ -1,6 +1,5 @@
-Hey! I'm Sam, a physical design engineer at IBM. Most of what's here is me working on the
-same problems with open tools on my own time, usually using OpenROAD on the ASAP7
-process, plus some older school projects.
+Hey! I'm Sam, a physical design engineer at IBM. Most of what's here is things I
+got curious about and explored on my own, plus some projects from school.
 
 ### learned-synth
 

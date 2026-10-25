@@ -18,10 +18,9 @@ Always happy to talk chips, physical design, or open-source silicon. You can fin
 A from-scratch reimplementation of Google's reinforcement learning macro placer
 from the 2021 Nature paper: an agent places the hard macros one at a time, a
 force-directed pass settles the standard cells around them, and a wirelength,
-congestion and density proxy scores the result. Built in six versions, each
-adding one idea and measured on its own. The graph neural network at the heart
-of the paper gave no advantage at the scale I could run, and an early trend
-suggesting otherwise did not survive a properly powered replication.
+congestion and density proxy scores the result. The graph neural network at the
+heart of the paper gave no advantage at the scale I could run, and an early
+trend suggesting otherwise did not survive a properly powered replication.
 
 [**Open-SRAM-Compiler-ASAP7nmPDK**](https://github.com/Samcooper01/Open-SRAM-Compiler-ASAP7nmPDK)
 An SRAM compiler for the ASAP7 7nm predictive process. Three parameters in, a

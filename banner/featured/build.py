@@ -51,6 +51,13 @@ def sheet(src, style):
 
 
 CARDS = {
+    "sram": dict(
+        kicker="sramforge &middot; ASAP7",
+        title="SRAM<br>compiler",
+        sub="Three parameters in, a verified memory macro out, on open tools",
+        facts="<b>1.94</b> GHz <i>/</i> <b>114,454</b> transistors <i>/</i> <b>8</b> kB",
+        art=picture("a_bank.png", ".art img { left: 0; top: -1500px; width: 548px; }"),
+    ),
     "competition": dict(
         kicker="Chipbase &middot; Competition 01",
         title="Systolic array<br>AI accelerator",

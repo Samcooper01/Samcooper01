@@ -65,7 +65,7 @@ A block cipher I took from a C golden model through synthesis, static timing and
 power analysis, in two variants to see what reorganizing the key logic bought.
 Done over a weekend.
 
-### 🔌 Programmable logic
+### 🔌 Digital design
 
 [**ECE554-Capstone-Project**](https://github.com/Samcooper01/ECE554-Capstone-Project)
 Real-time object detection and laser targeting on a Cyclone V board: a camera

@@ -24,6 +24,9 @@ algorithms underneath them, interactive labs, drills, and problems in the
 browser. [Live here.](https://samcooper01.github.io/chipbase/)
 
 [**systolic-array-ai-accelerator-harness**](https://github.com/Samcooper01/systolic-array-ai-accelerator-harness)
+
+[![Chipbase Competition 01: Systolic Array AI Accelerator. Take Gemmini from RTL to a complete layout in the ASAP7 predictive process, using only open-source tools.](https://raw.githubusercontent.com/Samcooper01/systolic-array-ai-accelerator-harness/main/docs/img/banner.png)](https://samcooper01.github.io/chipbase/challenges)
+
 The evaluation harness for the first Chipbase design competition: entrants take
 Gemmini, an open AI accelerator built around a 16 by 16 systolic array, from
 Verilog to a finished ASAP7 layout, scored on clock period, area and power.

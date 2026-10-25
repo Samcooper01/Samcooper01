@@ -1,6 +1,6 @@
 ## Sam Cooper
 
-Physical design engineer at IBM (International Business Machines). I take
+Physical design engineer at IBM. I take
 advanced-node chips from floorplan through sign-off: synthesis, place and route,
 clock tree synthesis, timing closure, power delivery, and physical verification.
 

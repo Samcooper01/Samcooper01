@@ -15,8 +15,8 @@ Always happy to talk chips, physical design, or open-source silicon. You can fin
 ### 🧱 Physical design
 
 [**rl-macro-placer**](https://github.com/Samcooper01/rl-macro-placer)
-A from-scratch reimplementation of Google's reinforcement learning macro placer
-from the 2021 Nature paper: an agent places the hard macros one at a time, a
+A reimplementation of Google's reinforcement learning macro placer from the
+2021 Nature paper: an agent places the hard macros one at a time, a
 force-directed pass settles the standard cells around them, and a wirelength,
 congestion and density proxy scores the result.
 

@@ -2,8 +2,9 @@
 """Write and render the poster cards, 1280 by 640 each, into this directory.
 
 One card per project, all from card.css, for places that show an image as a small
-thumbnail. Each gets the project's own artefact down the right at full saturation; the
-two without a usable one (the capstone, the cell generator) get a drawing instead.
+thumbnail. Each gets the project's own artefact down the right at full saturation: the
+finished accelerator, a multiplier layout, the datapath, rows of hand-drawn neurons, the
+capstone's clock timing, and a dozen of the generated cells.
 
     python3 build.py <path to headless chromium>     (or set CHROME)
 """
@@ -49,40 +50,12 @@ def sheet(src, style):
     return f'  <div class="art sheet"><img src="img/{src}" alt=""></div>\n  <div class="fade"></div>', style
 
 
-def dots(built, total):
-    """One square per cell in the library, the ones that build clean picked out."""
-    body = "".join(f'<i class="{"on" if i < built else ""}"></i>' for i in range(total))
-    return f'  <div class="dots">{body}</div>', ""
-
-
-def crosshair():
-    """No photograph of the build survives, so the card draws what it did instead:
-    a frame locked onto a moving target."""
-    return ('''  <div class="art">
-    <svg viewBox="0 0 548 640" width="548" height="640">
-      <defs><pattern id="g" width="34" height="34" patternUnits="userSpaceOnUse">
-        <path d="M34 0H0v34" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
-      </pattern></defs>
-      <rect width="548" height="640" fill="url(#g)"/>
-      <g fill="none" stroke="#f0bb52" stroke-width="4">
-        <path d="M150 196h-44v-44M398 196h44v-44M150 444h-44v44M398 444h44v44"/>
-      </g>
-      <rect x="106" y="152" width="336" height="336" fill="rgba(240,187,82,0.07)"/>
-      <circle cx="274" cy="320" r="86" fill="none" stroke="rgba(240,187,82,0.5)" stroke-width="3"/>
-      <circle cx="274" cy="320" r="13" fill="#e8402a"/>
-      <g stroke="rgba(240,187,82,0.5)" stroke-width="3">
-        <path d="M274 196v62M274 382v62M150 320h62M336 320h62"/>
-      </g>
-    </svg>
-  </div>''', "")
-
-
 CARDS = {
     "competition": dict(
         kicker="Chipbase &middot; Competition 01",
         title="Systolic array<br>AI accelerator",
-        sub="Gemmini from RTL to a finished layout, on open tools",
-        facts="<b>200,000</b> cells <i>/</i> <b>35,000</b> registers <i>/</i> <b>9</b> metal layers",
+        sub="Gemmini from RTL to a finished layout, on open tools only",
+        facts="<b>200,000</b> cells <i>/</i> <b>9</b> metal layers <i>/</i> ASAP7",
         art=picture("a_harness.png", ".art img { left: -118px; top: -50px; width: 784px; }"),
     ),
     "capstone": dict(
@@ -90,7 +63,8 @@ CARDS = {
         title="Object tracking<br>on an FPGA",
         sub="A camera, frame differencing in hardware, and a laser that follows what it finds",
         facts="<b>Best capstone</b> in the class <i>/</i> Cyclone V",
-        art=crosshair(),
+        art=stack("a_wave.png", 3, ".art img { left: -560px; width: 2246px; }\n"
+                  + "".join(f".art img:nth-child({i+1}) {{ top: {i*216 - 4}px; }}\n" for i in range(3))),
     ),
     "processor": dict(
         kicker="ECE 552",
@@ -121,7 +95,7 @@ CARDS = {
         title="Standard cells,<br>generated",
         sub="A transistor netlist in, a manufacturable layout out, with nothing drawn by hand",
         facts="<b>319</b> of <b>437</b> cells build clean",
-        art=dots(319, 437),
+        art=picture("a_cells.png", ".art img { left: -22px; top: 50%; transform: translateY(-50%); width: 592px; }"),
     ),
 }
 

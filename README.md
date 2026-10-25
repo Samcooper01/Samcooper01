@@ -19,6 +19,24 @@ Always happy to talk chips, physical design, or open-source silicon. You can fin
 
 #### 🧱 Physical design
 
+[**rl-macro-placer**](https://github.com/Samcooper01/rl-macro-placer)
+A from-scratch reimplementation of Google's reinforcement learning macro placer
+from the 2021 Nature paper: an agent places the hard macros one at a time, a
+force-directed pass settles the standard cells around them, and a wirelength,
+congestion and density proxy scores the result. Built in six versions, each
+adding one idea and measured on its own. The graph neural network at the heart
+of the paper gave no advantage at the scale I could run, and an early trend
+suggesting otherwise did not survive a properly powered replication.
+
+[**Open-SRAM-Compiler-ASAP7nmPDK**](https://github.com/Samcooper01/Open-SRAM-Compiler-ASAP7nmPDK)
+An SRAM compiler for the ASAP7 7nm predictive process. Three parameters in, a
+verified memory macro out: full-custom layout, an abstract for place and route,
+a timing library and a behavioral model. The verification stack is the real
+work, eleven automated rungs from geometric checks to functional simulation,
+with 97 design rules transcribed from the rule manual. It caught two defects
+that would have been fatal in silicon. Largest macro built and verified is 8
+kilobytes, all on open tools.
+
 [**learned-synth**](https://github.com/Samcooper01/learned-synth)
 
 [![learned-synth project page: is the standard recipe for open-source logic synthesis good enough? A better recipe on 6 of 9 designs, with up to 5.8% less chip area at the same clock speed.](https://raw.githubusercontent.com/Samcooper01/learned-synth/main/docs/banner.png)](https://samcooper01.github.io/learned-synth/)

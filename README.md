@@ -34,6 +34,9 @@ Verilog to a finished ASAP7 layout, scored on clock period, area and power.
 ### 🧱 Physical design
 
 [**rl-macro-placer**](https://github.com/Samcooper01/rl-macro-placer)
+
+[![Teaching an agent to place chip macros: a rebuild of Google's reinforcement learning method for chip floorplanning, measured at every step.](https://raw.githubusercontent.com/Samcooper01/rl-macro-placer/main/docs/assets/banner.png)](https://samcooper01.github.io/rl-macro-placer/)
+
 A reimplementation of Google's reinforcement learning macro placer from the
 2021 Nature paper: an agent places the hard macros one at a time, a
 force-directed pass settles the standard cells around them, and a wirelength,
@@ -41,6 +44,9 @@ congestion and density proxy scores the result. The point was to build the whole
 method at laptop scale and measure what carries over and what does not.
 
 [**Open-SRAM-Compiler-ASAP7nmPDK**](https://github.com/Samcooper01/Open-SRAM-Compiler-ASAP7nmPDK)
+
+[![sramforge, a memory compiler for a 7 nanometre process: three parameters in, a verified memory macro out, with every transistor accounted for.](https://raw.githubusercontent.com/Samcooper01/Open-SRAM-Compiler-ASAP7nmPDK/master/docs/banner.png)](https://samcooper01.github.io/Open-SRAM-Compiler-ASAP7nmPDK/)
+
 An SRAM compiler for the ASAP7 7nm predictive process. Three parameters in, a
 verified memory macro out: full-custom layout, an abstract for place and route,
 a timing library and a behavioral model. Eleven tests, from 97 design rules to

@@ -77,7 +77,7 @@ An end-to-end full-custom design: a multi-layer perceptron built from hand-drawn
 cells rather than a standard cell library. Every cell has a schematic, a
 transistor-level layout, an extracted parasitic netlist and a post-layout
 simulation, which is a good way to find out how much of a cell's delay is really
-wire. A three-person project for ECE 555, Digital Circuits and Components.
+wire. A project for ECE 555, Digital Circuits and Components.
 
 [**128bitFeistelCipher-ASIC**](https://github.com/Samcooper01/128bitFeistelCipher-ASIC)
 A block cipher I took from a C golden model through synthesis, static timing and

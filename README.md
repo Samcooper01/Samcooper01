@@ -87,6 +87,11 @@ A matrix-vector multiply unit: eight multiply-accumulate lanes behind input
 queues, pulling operands over an Avalon memory-mapped interface, constrained to
 200 MHz and checked in the timing analyzer.
 
+[**MAC-and-FIFO**](https://github.com/Samcooper01/MAC-and-FIFO)
+A multiply-accumulate unit and the queue that feeds it, built twice: once from
+the vendor's library blocks and once from scratch in SystemVerilog, then
+compared on resource usage.
+
 [**Pathfinder-FPGA-robot**](https://github.com/Samcooper01/Pathfinder-FPGA-robot)
 A maze-solving robot. Infrared, hall-effect and gyro sensors in, motor drivers
 out, and a proportional-integral-derivative controller keeping it off the walls.

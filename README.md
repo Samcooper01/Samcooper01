@@ -37,8 +37,8 @@ floating point, taken from Verilog to a finished layout on SkyWater's open
 separate macros and the top level built out of 64 of them, so it closed timing
 hierarchically rather than flat: 1.63 mm² of die at about 65% utilization,
 signed off across three corners with no setup or hold violations. A five-person
-class project; my part was the physical implementation and the floating-point
-arithmetic.
+project for ECE 755, VLSI Design; my part was the physical implementation and
+the floating-point arithmetic.
 
 [**128bitFeistelCipher-ASIC**](https://github.com/Samcooper01/128bitFeistelCipher-ASIC)
 A block cipher I took from a C golden model through synthesis, static timing and

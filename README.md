@@ -55,7 +55,7 @@ graph neural network and a genetic algorithm, grading each one on a real layout.
 
 [**Std-Cell-Layout-Gen**](https://github.com/Samcooper01/Std-Cell-Layout-Gen)
 A generator that turns a transistor netlist into a manufacturable standard cell
-layout with nobody drawing anything by hand. Each cell gets a short recipe of
+layout with no drawing by hand required. Each cell gets a short recipe of
 knobs while the process rules and library architecture stay shared, so you can
 change a technology parameter, rerun, and get a whole co-legal library back.
 Still in progress: 319 of the 437 cells in the SKY130 high-density library

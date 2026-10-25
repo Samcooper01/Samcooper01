@@ -37,16 +37,17 @@ closed hierarchically: 1.63 mm² at 65% utilization, clean across three corners.
 A five-person project for ECE 755, VLSI Design; my part was the physical
 implementation and the floating-point arithmetic.
 
+[**Multi-Layer-Perceptron**](https://github.com/Samcooper01/Multi-Layer-Perceptron)
+An end-to-end full-custom design: a multi-layer perceptron built from hand-drawn
+cells rather than a standard cell library. Every cell has a schematic, a
+transistor-level layout, an extracted parasitic netlist and a post-layout
+simulation, which is a good way to find out how much of a cell's delay is really
+wire.
+
 [**128bitFeistelCipher-ASIC**](https://github.com/Samcooper01/128bitFeistelCipher-ASIC)
 A block cipher I took from a C golden model through synthesis, static timing and
 power analysis, in two variants to see what reorganizing the key logic bought.
 Done over a weekend.
-
-[**Multi-Layer-Perceptron**](https://github.com/Samcooper01/Multi-Layer-Perceptron)
-A multi-layer perceptron built out of full-custom cells rather than standard
-ones. Every cell has a schematic, a transistor-level layout, an extracted
-parasitic netlist and a post-layout simulation, which is a good way to find out
-how much of a cell's delay is really wire.
 
 #### 🔌 Programmable logic
 

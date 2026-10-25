@@ -82,6 +82,12 @@ feeding frame-differencing logic built in hardware, a servo-driven laser that
 tracks whatever it finds, and a video overlay so you can watch it work. Five of
 us built it, and it won best capstone in the class.
 
+[**2D-Image-Processing-Module**](https://github.com/Samcooper01/2D-Image-Processing-Module)
+Real-time image processing on a camera's pixel stream before it ever reaches
+memory: Bayer to color, grayscale, then a 3x3 Sobel convolution for edge
+detection, with shift-register line buffers holding the window and frames
+buffered in memory on the way to the display.
+
 [**Matrix-Multiplication-Module**](https://github.com/Samcooper01/Matrix-Multiplication-Module)
 A matrix-vector multiply unit: eight multiply-accumulate lanes behind input
 queues, pulling operands over an Avalon memory-mapped interface, constrained to

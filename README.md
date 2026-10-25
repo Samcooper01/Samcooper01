@@ -79,7 +79,8 @@ wire. A three-person project for ECE 555, Digital Circuits and Components.
 [**128bitFeistelCipher-ASIC**](https://github.com/Samcooper01/128bitFeistelCipher-ASIC)
 A block cipher I took from a C golden model through synthesis, static timing and
 power analysis, in two variants to see what reorganizing the key logic bought.
-Done over a weekend.
+Done over a weekend, and my first time running a
+physical design flow.
 
 ### 🔌 Digital design
 

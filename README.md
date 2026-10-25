@@ -40,9 +40,8 @@ method at laptop scale and measure what carries over and what does not.
 [**Open-SRAM-Compiler-ASAP7nmPDK**](https://github.com/Samcooper01/Open-SRAM-Compiler-ASAP7nmPDK)
 An SRAM compiler for the ASAP7 7nm predictive process. Three parameters in, a
 verified memory macro out: full-custom layout, an abstract for place and route,
-a timing library and a behavioral model. The verification stack runs eleven
-automated tests, from 97 transcribed design rules to switch-level simulation of
-the extracted netlist. Largest built and verified so far is 8 kilobytes.
+a timing library and a behavioral model. Eleven tests, from 97 design rules to
+switch-level simulation; largest, 8 kilobytes.
 
 [**learned-synth**](https://github.com/Samcooper01/learned-synth)
 

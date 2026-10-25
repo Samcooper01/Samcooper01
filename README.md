@@ -20,6 +20,9 @@ Always happy to talk chips, physical design, or open-source silicon. You can fin
 #### 🧱 Physical design
 
 [**learned-synth**](https://github.com/Samcooper01/learned-synth)
+
+[![learned-synth project page: is the standard recipe for open-source logic synthesis good enough? A better recipe on 6 of 9 designs, with up to 5.8% less chip area at the same clock speed.](https://raw.githubusercontent.com/Samcooper01/learned-synth/main/docs/banner.png)](https://samcooper01.github.io/learned-synth/)
+
 I wanted to see whether the default recipe that open-source logic synthesis uses
 could be improved on. It usually can, if you pick a recipe for the specific
 design: on 6 of 9 designs I tried, up to about 5.8% less area

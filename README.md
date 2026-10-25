@@ -1,53 +1,41 @@
 ## Sam Cooper
 
-Physical design engineer at IBM. Advanced-node ASIC (Application-Specific
-Integrated Circuit) implementation from floorplan to sign-off: synthesis, place
-and route, clock tree synthesis, timing closure, power distribution, voltage
-drop and electromigration analysis, and physical verification.
+I'm a physical design engineer at IBM. Most of what's here is me working on the
+same problems with open tools on my own time, usually OpenROAD on the ASAP7
+(Arizona State University 7nm predictive Process Design Kit) process, plus some
+older school projects.
 
-Public work here targets the open flow: OpenROAD on the ASAP7 (Arizona State
-University 7nm predictive Process Design Kit) technology.
+### learned-synth
 
-### Projects
+I wanted to know whether the default recipe that open-source logic synthesis
+uses is actually any good. Turns out you can usually beat it by picking a recipe
+for the specific design: on 6 of 9 designs I tried, up to about 5.8% less area at
+the same clock speed. I used reinforcement learning and a graph neural network
+to search for recipes, and checked every candidate on a real layout instead of
+trusting gate counts.
+[Write-up here.](https://samcooper01.github.io/learned-synth/)
 
-[**learned-synth**](https://github.com/Samcooper01/learned-synth)
-Per-design recipe selection for open-source logic synthesis, graded on
-post-route layout results rather than on gate count. Reinforcement learning, a
-graph neural network surrogate, and surrogate-guided evolutionary search over
-sequences of classic transforms, across 234 full layouts. The best per-design
-recipe beats the standard `resyn2` on 6 of 9 designs, by up to 5.8% less area at
-an equal clock period.
-[Project page](https://samcooper01.github.io/learned-synth/)
+### Older projects
 
-[**128bitFeistelCipher-ASIC**](https://github.com/Samcooper01/128bitFeistelCipher-ASIC)
-Six-round 128-bit Feistel cipher carried from a C golden model to gate level in
-two variants: RTL (Register Transfer Level) design, synthesis, static timing
-analysis, and power analysis.
+- [128bitFeistelCipher-ASIC](https://github.com/Samcooper01/128bitFeistelCipher-ASIC):
+  a block cipher I took from a C model through synthesis, timing and power, in a
+  couple of variants.
+- [Matrix-Multiplication-Module](https://github.com/Samcooper01/Matrix-Multiplication-Module)
+  and [Pathfinder-FPGA-robot](https://github.com/Samcooper01/Pathfinder-FPGA-robot):
+  matrix multiply hardware, and a maze-solving robot with sensors and a
+  proportional-integral-derivative controller. Both on an FPGA
+  (field-programmable gate array), in SystemVerilog.
+- [ECE554-Capstone-Project](https://github.com/Samcooper01/ECE554-Capstone-Project):
+  real-time object tracking on an FPGA (field-programmable gate array). It won
+  best capstone in the class.
+- [SCC-16](https://github.com/topics/scc-16): a 16-bit instruction set I made
+  up, with the processor, a simulator, an assembler and a half-finished
+  compiler.
 
-[**Matrix-Multiplication-Module**](https://github.com/Samcooper01/Matrix-Multiplication-Module)
-Matrix multiplication datapath in SystemVerilog, implemented on a
-field-programmable gate array.
+### Tools I use
 
-[**Pathfinder-FPGA-robot**](https://github.com/Samcooper01/Pathfinder-FPGA-robot)
-Maze-solving robot on a field-programmable gate array: sensor interfaces, a
-proportional-integral-derivative controller, and motor drivers in SystemVerilog.
+Cadence (Genus, Innovus, Tempus, Voltus, Quantus, Cerebrus), Synopsys (Design
+Compiler, Formality), Calibre, OpenROAD, Yosys, KLayout. Mostly Tcl and Python,
+Verilog and SystemVerilog, some C and C++.
 
-[**ECE554-Capstone-Project**](https://github.com/Samcooper01/ECE554-Capstone-Project)
-Real-time object tracking system on a field-programmable gate array. Awarded
-best capstone project in the course.
-
-[**SCC-16**](https://github.com/topics/scc-16)
-A 16-bit instruction set, with its processor in SystemVerilog, an
-instruction-set simulator in C, an assembler, and a partial compiler.
-
-### Tools
-
-Cadence Genus, Innovus, Tempus, Voltus, Quantus, Cerebrus. Synopsys Design
-Compiler, Formality. Siemens Calibre. OpenROAD, Yosys, KLayout.
-
-Tcl, Python, Verilog, SystemVerilog, C, C++.
-
-### Education
-
-M.S. Electrical and Computer Engineering and B.S. Computer Engineering,
-University of Wisconsin-Madison.
+M.S. and B.S. from the University of Wisconsin-Madison.

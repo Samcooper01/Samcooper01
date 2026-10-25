@@ -23,7 +23,7 @@ congestion and density proxy scores the result.
 An SRAM compiler for the ASAP7 7nm predictive process. Three parameters in, a
 verified memory macro out: full-custom layout, an abstract for place and route,
 a timing library and a behavioral model. The verification stack runs eleven
-automated rungs, from 97 transcribed design rules to switch-level simulation of
+automated tests, from 97 transcribed design rules to switch-level simulation of
 the extracted netlist.
 
 [**learned-synth**](https://github.com/Samcooper01/learned-synth)

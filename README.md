@@ -11,6 +11,27 @@ Always happy to talk chips, physical design, or open-source silicon. You can fin
 
 ## 🔬 Projects
 
+### 🎓 Chipbase
+
+[**chipbase**](https://github.com/Samcooper01/chipbase)
+
+[![Chipbase: learn chip physical design by doing. Reading pages on every stage of the flow, interactive labs, drills, and problems graded in your browser.](https://raw.githubusercontent.com/Samcooper01/chipbase/main/docs/banner.png)](https://samcooper01.github.io/chipbase/)
+
+A free site for learning physical design, built because the material I wanted
+when I was starting out is scattered across papers, course notes and tool
+manuals. It has reading pages on every stage of the flow, pages on the
+algorithms underneath them, interactive labs, drills, and fifteen problems
+graded in the browser. [Live here.](https://samcooper01.github.io/chipbase/)
+
+[**systolic-array-ai-accelerator-harness**](https://github.com/Samcooper01/systolic-array-ai-accelerator-harness)
+The evaluation harness for the first design competition on Chipbase. Entrants
+take Gemmini, an open AI accelerator built around a 16 by 16 systolic array,
+from Verilog to a finished layout on the ASAP7 7nm predictive process using
+only open tools, and anything that clears the gates is scored on clock period,
+area and power against a reference flow. That reference is in here too: around
+200,000 cells, macros placed by hand, one clock tree reaching about 35,000
+registers, routed clean on nine metal layers.
+
 ### 🧱 Physical design
 
 [**rl-macro-placer**](https://github.com/Samcooper01/rl-macro-placer)

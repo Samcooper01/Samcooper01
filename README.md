@@ -23,13 +23,11 @@ Always happy to talk chips, physical design, or open-source silicon. You can fin
 
 [![learned-synth project page: is the standard recipe for open-source logic synthesis good enough? A better recipe on 6 of 9 designs, with up to 5.8% less chip area at the same clock speed.](https://raw.githubusercontent.com/Samcooper01/learned-synth/main/docs/banner.png)](https://samcooper01.github.io/learned-synth/)
 
-I wanted to see whether the default recipe that open-source logic synthesis uses
-could be improved on. It usually can, if you pick a recipe for the specific
-design: on 6 of 9 designs I tried, up to about 5.8% less area
-at the same clock speed. I used reinforcement learning and a graph neural
-network to search for recipes, then a genetic algorithm to search further, and
-checked every candidate on a real layout instead of trusting gate counts. That
-came out to 234 full layouts through OpenROAD on the ASAP7 predictive process.
+I wanted to see if the default recipe for open-source logic synthesis could be
+improved on. Usually it can: up to 5.8% less area at the same clock speed, on 6
+of 9 designs. I searched for per-design recipes with reinforcement learning, a
+graph neural network and a genetic algorithm, grading each one on a real layout
+instead of a gate count. 234 layouts in all.
 [Write-up here.](https://samcooper01.github.io/learned-synth/)
 
 [**GEMM_CORE**](https://github.com/Samcooper01/GEMM_CORE)

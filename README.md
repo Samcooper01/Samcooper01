@@ -26,8 +26,8 @@ Always happy to talk chips, physical design, or open-source silicon. You can fin
 I wanted to see if the default recipe for open-source logic synthesis could be
 improved on. Usually it can: up to 5.8% less area at the same clock speed, on 6
 of 9 designs. I searched for per-design recipes with reinforcement learning, a
-graph neural network and a genetic algorithm, grading each one on a real layout
-instead of a gate count. 234 layouts in all.
+graph neural network and a genetic algorithm, grading each one on a real layout.
+234 layouts in all.
 [Write-up here.](https://samcooper01.github.io/learned-synth/)
 
 [**GEMM_CORE**](https://github.com/Samcooper01/GEMM_CORE)

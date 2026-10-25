@@ -2,7 +2,7 @@ Hey! I'm Sam, and I work as a physical design engineer at IBM. Day to day, that
 means taking advanced-node chips from floorplan through sign-off, at both the
 macro and the chip-top level. My work covers place and route, timing closure,
 clock tree synthesis, hierarchical timing, chip integration, power
-distribution, and the sign-off checks at the end.
+distribution, and the sign-off checks.
 
 Most of what's here is things I got curious about and explored on my own, plus
 some projects from school. Lately I've been interested in what machine learning

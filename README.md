@@ -7,7 +7,7 @@ flow, and using open-source tools like OpenROAD to experiment.
 
 Always happy to talk chips, physical design, or open-source silicon. You can find me on [LinkedIn](https://www.linkedin.com/in/sam-cooper12).
 
-Also check out [Chipbase](https://samcooper01.github.io/chipbase/), a free site I made for learning about physical design.
+Also check out [Chipbase](https://samcooper01.github.io/chipbase/), a free site I made for learning about physical design. Try the [design challenge](https://samcooper01.github.io/chipbase/challenges) on there too.
 
 ---
 

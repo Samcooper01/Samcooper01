@@ -11,6 +11,8 @@ some projects from school. Lately I've been interested in what machine learning
 can do for the back end of the chip flow, and in open tools like OpenROAD, where
 I can take a design all the way through and measure what actually changed.
 
+If any of this looks interesting, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/sam-cooper12).
+
 ### Physical design
 
 [**learned-synth**](https://github.com/Samcooper01/learned-synth)

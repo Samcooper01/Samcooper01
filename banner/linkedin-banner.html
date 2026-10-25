@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- The LinkedIn profile banner, 1584 by 396. The profile photo sits over the lower left
+     of this strip and mobile crops it tighter still, so that corner is left empty and
+     everything that matters is kept right of centre and off the edges. Render it from
+     this directory:
+       chromium --headless --window-size=1584,396 --force-device-scale-factor=1 \
+         --virtual-time-budget=6000 --screenshot=linkedin-banner.png linkedin-banner.html -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #faf7f1; --muted: #5a5750; --accent: #9c2a20; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1584px; height: 396px; overflow: hidden; }
+  body {
+    background-color: var(--bg); position: relative;
+    background-image: linear-gradient(90deg, rgba(21,24,28,0.035) 1px, transparent 1px),
+                      linear-gradient(rgba(21,24,28,0.035) 1px, transparent 1px);
+    background-size: 26px 26px;
+    font-family: "IBM Plex Mono", monospace;
+  }
+
+  /* the finished accelerator, bleeding off the right edge */
+  .art { position: absolute; right: 0; top: 0; width: 1150px; height: 396px; overflow: hidden; }
+  .art img { position: absolute; left: -56px; top: -150px; width: 1210px; display: block; }
+
+  /* dissolve the left edge into the card so there is no seam behind the photo */
+  .art::after {
+    content: ""; position: absolute; inset: 0;
+    background: linear-gradient(90deg, var(--bg) 0%, rgba(250,247,241,0.88) 12%,
+                rgba(250,247,241,0.35) 26%, transparent 42%);
+  }
+
+  .caption {
+    position: absolute; right: 44px; bottom: 28px; z-index: 2;
+    font-size: 15px; font-weight: 500; color: var(--muted); letter-spacing: 0.04em;
+    background: rgba(250,247,241,0.82); padding: 7px 12px; border-radius: 5px;
+  }
+  .caption b { color: var(--accent); font-weight: 600; }
+</style>
+</head>
+<body>
+  <div class="art"><img src="featured/img/a_harness.png" alt=""></div>
+  <div class="caption"><b>systolic array accelerator</b> &middot; ASAP7 &middot; open tools</div>
+</body>
+</html>

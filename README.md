@@ -3,8 +3,8 @@
 Hey! I'm Sam, and I work as a physical design engineer at IBM. Most of what's
 here is things I got curious about and explored on my own, plus some projects
 from school. Lately that's mostly been machine learning applied to the chip
-flow. Open tools like OpenROAD let me run a design end to end, so I can measure
-what a change actually buys.
+flow. Open tools like OpenROAD let me run a design all the way
+through, so I can measure a change instead of guessing at it.
 
 Always happy to talk chips, physical design, or open-source silicon. You can find me on [LinkedIn](https://www.linkedin.com/in/sam-cooper12).
 

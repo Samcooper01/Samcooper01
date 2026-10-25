@@ -20,8 +20,8 @@ Always happy to talk chips, physical design, or open-source silicon. You can fin
 A free site for learning physical design, built because the material I wanted
 when I was starting out is scattered across papers, course notes and tool
 manuals. It has reading pages on every stage of the flow, pages on the
-algorithms underneath them, interactive labs, drills, and fifteen problems
-graded in the browser. [Live here.](https://samcooper01.github.io/chipbase/)
+algorithms underneath them, interactive labs, drills, and problems in the
+browser. [Live here.](https://samcooper01.github.io/chipbase/)
 
 [**systolic-array-ai-accelerator-harness**](https://github.com/Samcooper01/systolic-array-ai-accelerator-harness)
 The evaluation harness for the first design competition on Chipbase. Entrants

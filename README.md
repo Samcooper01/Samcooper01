@@ -34,8 +34,8 @@ A 4-bit floating point matrix multiply engine, taken from Verilog to a finished
 layout on SkyWater's open 130nm process. The processing element and vector unit
 were hardened as separate macros and the top built from 64 of them, so timing
 closed hierarchically: 1.63 mm² at 65% utilization, clean across three corners.
-Five of us built it for ECE 755, VLSI Design; I did the physical implementation
-and the floating-point arithmetic.
+A five-person project for ECE 755, VLSI Design; my part was the physical
+implementation and the floating-point arithmetic.
 
 [**128bitFeistelCipher-ASIC**](https://github.com/Samcooper01/128bitFeistelCipher-ASIC)
 A block cipher I took from a C golden model through synthesis, static timing and

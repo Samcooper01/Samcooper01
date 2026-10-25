@@ -47,6 +47,13 @@ of 9 designs. I searched for per-design recipes with reinforcement learning, a
 graph neural network and a genetic algorithm, grading each one on a real layout.
 [Write-up here.](https://samcooper01.github.io/learned-synth/)
 
+[**Std-Cell-Layout-Gen**](https://github.com/Samcooper01/Std-Cell-Layout-Gen)
+A generator that turns a transistor netlist into a manufacturable standard cell
+layout with nobody drawing anything by hand. Each cell gets a short recipe of
+knobs while the process rules and library architecture stay shared, so you can
+change a technology parameter, rerun, and get a whole co-legal library back.
+319 of the 437 cells in the SKY130 high-density library build clean so far.
+
 [**GEMM_CORE**](https://github.com/Samcooper01/GEMM_CORE)
 A 4-bit floating point matrix multiply engine, taken from Verilog to a finished
 layout on SkyWater's open 130nm process. The processing element and vector unit

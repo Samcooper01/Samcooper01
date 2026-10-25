@@ -13,7 +13,9 @@ I can take a design all the way through and measure what actually changed.
 
 Always happy to talk chips, physical design, or open-source silicon. You can find me on [LinkedIn](https://www.linkedin.com/in/sam-cooper12).
 
-### Physical design
+### Projects
+
+#### Physical design
 
 [**learned-synth**](https://github.com/Samcooper01/learned-synth)
 I wanted to know whether the default recipe that open-source logic synthesis
@@ -39,7 +41,7 @@ A multi-layer perceptron built out of full-custom cells rather than standard
 ones: schematic, transistor-level layout, parasitic extraction and post-layout
 simulation for each cell.
 
-### Programmable logic
+#### Programmable logic
 
 - [Matrix-Multiplication-Module](https://github.com/Samcooper01/Matrix-Multiplication-Module):
   matrix multiply hardware in SystemVerilog.
@@ -50,7 +52,7 @@ simulation for each cell.
   real-time object tracking, on an FPGA (field-programmable gate array). It won
   best capstone in the class.
 
-### Processors and toolchains
+#### Processors and toolchains
 
 - [SCC-16](https://github.com/topics/scc-16): a 16-bit instruction set I made
   up, with the processor, a simulator, an assembler and a half-finished

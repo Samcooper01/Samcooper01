@@ -23,11 +23,10 @@ congestion and density proxy scores the result.
 [**Open-SRAM-Compiler-ASAP7nmPDK**](https://github.com/Samcooper01/Open-SRAM-Compiler-ASAP7nmPDK)
 An SRAM compiler for the ASAP7 7nm predictive process. Three parameters in, a
 verified memory macro out: full-custom layout, an abstract for place and route,
-a timing library and a behavioral model. The verification stack is the real
-work, eleven automated rungs from geometric checks to functional simulation,
-with 97 design rules transcribed from the rule manual. It caught two defects
-that would have been fatal in silicon. Largest macro built and verified is 8
-kilobytes, all on open tools.
+a timing library and a behavioral model. The verification stack runs eleven
+automated rungs, from geometric equality checks through 97 design rules
+transcribed from the rule manual, up to functional simulation of the whole
+macro.
 
 [**learned-synth**](https://github.com/Samcooper01/learned-synth)
 

@@ -24,13 +24,11 @@ algorithms underneath them, interactive labs, drills, and problems in the
 browser. [Live here.](https://samcooper01.github.io/chipbase/)
 
 [**systolic-array-ai-accelerator-harness**](https://github.com/Samcooper01/systolic-array-ai-accelerator-harness)
-The evaluation harness for the first design competition on Chipbase. Entrants
-take Gemmini, an open AI accelerator built around a 16 by 16 systolic array,
-from Verilog to a finished layout on the ASAP7 7nm predictive process using
-only open tools, and anything that clears the gates is scored on clock period,
-area and power against a reference flow. That reference is in here too: around
-200,000 cells, macros placed by hand, one clock tree reaching about 35,000
-registers, routed clean on nine metal layers.
+The evaluation harness for the first Chipbase design competition: entrants take
+Gemmini, an open AI accelerator built around a 16 by 16 systolic array, from
+Verilog to a finished ASAP7 layout, scored on clock period, area and power. The
+reference flow ships with it: about 200,000 cells, 35,000 registers on one clock
+tree, nine metal layers.
 
 ### 🧱 Physical design
 

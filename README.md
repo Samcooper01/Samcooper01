@@ -1,48 +1,53 @@
 ## Sam Cooper
 
-Physical design engineer at IBM. I take
-advanced-node chips from floorplan through sign-off: synthesis, place and route,
-clock tree synthesis, timing closure, power delivery, and physical verification.
+Physical design engineer at IBM. Advanced-node ASIC (Application-Specific
+Integrated Circuit) implementation from floorplan to sign-off: synthesis, place
+and route, clock tree synthesis, timing closure, power distribution, voltage
+drop and electromigration analysis, and physical verification.
 
-Outside work I do the same thing in the open, where the runs are reproducible
-and the numbers can be checked: the OpenROAD flow on the ASAP7 (Arizona State
+Public work here targets the open flow: OpenROAD on the ASAP7 (Arizona State
 University 7nm predictive Process Design Kit) technology.
 
-### learned-synth
+### Projects
 
-**On 6 of 9 designs, a synthesis recipe chosen for that design beats the
-standard hand-tuned one, by as much as 5.8% less area at the same clock speed,
-measured on 234 finished chip layouts instead of on gate counts.**
+[**learned-synth**](https://github.com/Samcooper01/learned-synth)
+Per-design recipe selection for open-source logic synthesis, graded on
+post-route layout results rather than on gate count. Reinforcement learning, a
+graph neural network surrogate, and surrogate-guided evolutionary search over
+sequences of classic transforms, across 234 full layouts. The best per-design
+recipe beats the standard `resyn2` on 6 of 9 designs, by up to 5.8% less area at
+an equal clock period.
+[Project page](https://samcooper01.github.io/learned-synth/)
 
-Open-source logic synthesis hands a tiny controller and a large processor the
-same fixed recipe. This project builds a better one per design, using
-reinforcement learning, a graph neural network surrogate, and surrogate-guided
-evolutionary search, and grades every candidate through place and route to
-sign-off.
+[**128bitFeistelCipher-ASIC**](https://github.com/Samcooper01/128bitFeistelCipher-ASIC)
+Six-round 128-bit Feistel cipher carried from a C golden model to gate level in
+two variants: RTL (Register Transfer Level) design, synthesis, static timing
+analysis, and power analysis.
 
-[Read the walkthrough](https://samcooper01.github.io/learned-synth/) ·
-[Repository](https://github.com/Samcooper01/learned-synth)
+[**Matrix-Multiplication-Module**](https://github.com/Samcooper01/Matrix-Multiplication-Module)
+Matrix multiplication datapath in SystemVerilog, implemented on a
+field-programmable gate array.
 
-### Earlier work
+[**Pathfinder-FPGA-robot**](https://github.com/Samcooper01/Pathfinder-FPGA-robot)
+Maze-solving robot on a field-programmable gate array: sensor interfaces, a
+proportional-integral-derivative controller, and motor drivers in SystemVerilog.
 
-- [128-bit Feistel cipher](https://github.com/Samcooper01/128bitFeistelCipher-ASIC):
-  a streaming six-round block cipher carried from a C golden model through
-  RTL (register transfer level) design, synthesis, static timing analysis and
-  power analysis.
-- [MazeRunner](https://github.com/Samcooper01/Pathfinder-FPGA-robot): a
-  maze-solving robot on an FPGA (field-programmable gate array), with sensor
-  interfaces, a PID (proportional-integral-derivative) controller and motor
-  drivers in SystemVerilog.
-- [SCC-16](https://github.com/topics/scc-16): a 16-bit instruction set of my
-  own, with its processor in SystemVerilog, a simulator in C, an assembler and
-  a partial compiler.
+[**ECE554-Capstone-Project**](https://github.com/Samcooper01/ECE554-Capstone-Project)
+Real-time object tracking system on a field-programmable gate array. Awarded
+best capstone project in the course.
+
+[**SCC-16**](https://github.com/topics/scc-16)
+A 16-bit instruction set, with its processor in SystemVerilog, an
+instruction-set simulator in C, an assembler, and a partial compiler.
 
 ### Tools
 
-Cadence (Genus, Innovus, Tempus, Voltus, Quantus, Cerebrus), Synopsys (Design
-Compiler, Formality), Siemens Calibre, OpenROAD, KLayout, Yosys.
+Cadence Genus, Innovus, Tempus, Voltus, Quantus, Cerebrus. Synopsys Design
+Compiler, Formality. Siemens Calibre. OpenROAD, Yosys, KLayout.
 
-Tcl, Python, Verilog and SystemVerilog, C and C++.
+Tcl, Python, Verilog, SystemVerilog, C, C++.
 
-M.S. and B.S. in Electrical and Computer Engineering, University of
-Wisconsin-Madison.
+### Education
+
+M.S. Electrical and Computer Engineering and B.S. Computer Engineering,
+University of Wisconsin-Madison.

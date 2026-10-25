@@ -1,6 +1,6 @@
-Hey! I'm Sam, and I work as a physical design engineer at IBM. Day to day that
-means advanced-node chips, taking blocks from floorplan through timing closure
-and sign-off.
+Hey! I'm Sam, and I work as a physical design engineer at IBM. Day to day, that means taking
+blocks on advanced-node chips from floorplan through timing closure and
+sign-off.
 
 Most of what's here is things I got curious about and explored on my own, plus
 some projects from school. Lately I've been interested in what machine learning

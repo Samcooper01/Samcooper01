@@ -26,9 +26,7 @@ browser. [Live here.](https://samcooper01.github.io/chipbase/)
 [**systolic-array-ai-accelerator-harness**](https://github.com/Samcooper01/systolic-array-ai-accelerator-harness)
 The evaluation harness for the first Chipbase design competition: entrants take
 Gemmini, an open AI accelerator built around a 16 by 16 systolic array, from
-Verilog to a finished ASAP7 layout, scored on clock period, area and power. The
-reference flow ships with it: about 200,000 cells, 35,000 registers on one clock
-tree, nine metal layers.
+Verilog to a finished ASAP7 layout, scored on clock period, area and power.
 
 ### 🧱 Physical design
 
@@ -37,8 +35,7 @@ A reimplementation of Google's reinforcement learning macro placer from the
 2021 Nature paper: an agent places the hard macros one at a time, a
 force-directed pass settles the standard cells around them, and a wirelength,
 congestion and density proxy scores the result. The point was to build the whole
-method at laptop scale and measure honestly what carries over and what does
-not.
+method at laptop scale and measure what carries over and what does not.
 
 [**Open-SRAM-Compiler-ASAP7nmPDK**](https://github.com/Samcooper01/Open-SRAM-Compiler-ASAP7nmPDK)
 An SRAM compiler for the ASAP7 7nm predictive process. Three parameters in, a
@@ -62,7 +59,8 @@ A generator that turns a transistor netlist into a manufacturable standard cell
 layout with nobody drawing anything by hand. Each cell gets a short recipe of
 knobs while the process rules and library architecture stay shared, so you can
 change a technology parameter, rerun, and get a whole co-legal library back.
-319 of the 437 cells in the SKY130 high-density library build clean so far.
+Still in progress: 319 of the 437 cells in the SKY130 high-density library
+build clean so far.
 
 [**GEMM_CORE**](https://github.com/Samcooper01/GEMM_CORE)
 A 4-bit floating point matrix multiply engine, taken from Verilog to a finished

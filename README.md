@@ -34,6 +34,11 @@ implementation and the floating-point arithmetic.
 A block cipher I took from a C model through synthesis, timing and power
 analysis, in a couple of variants.
 
+[**Multi-Layer-Perceptron**](https://github.com/Samcooper01/Multi-Layer-Perceptron)
+A multi-layer perceptron built out of full-custom cells rather than standard
+ones: schematic, transistor-level layout, parasitic extraction and post-layout
+simulation for each cell.
+
 ### Programmable logic
 
 - [Matrix-Multiplication-Module](https://github.com/Samcooper01/Matrix-Multiplication-Module):

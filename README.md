@@ -17,14 +17,16 @@ Always happy to talk chips, physical design, or open-source silicon. You can fin
 A reimplementation of Google's reinforcement learning macro placer from the
 2021 Nature paper: an agent places the hard macros one at a time, a
 force-directed pass settles the standard cells around them, and a wirelength,
-congestion and density proxy scores the result.
+congestion and density proxy scores the result. The point was to build the whole
+method at laptop scale and measure honestly what carries over and what does
+not.
 
 [**Open-SRAM-Compiler-ASAP7nmPDK**](https://github.com/Samcooper01/Open-SRAM-Compiler-ASAP7nmPDK)
 An SRAM compiler for the ASAP7 7nm predictive process. Three parameters in, a
 verified memory macro out: full-custom layout, an abstract for place and route,
 a timing library and a behavioral model. The verification stack runs eleven
 automated tests, from 97 transcribed design rules to switch-level simulation of
-the extracted netlist.
+the extracted netlist. Largest built and verified so far is 8 kilobytes.
 
 [**learned-synth**](https://github.com/Samcooper01/learned-synth)
 

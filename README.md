@@ -78,8 +78,6 @@ A matrix-vector multiply unit: eight multiply-accumulate lanes behind input
 queues, pulling operands over an Avalon memory-mapped interface, constrained to
 200 MHz and checked in the timing analyzer.
 
-### 🧮 Processors
-
 [**ECE552-5-Stage-Pipelined-Processor**](https://github.com/Samcooper01/ECE552-5-Stage-Pipelined-Processor)
 A five-stage pipelined processor in Verilog, with forwarding, branch prediction
 and its own memory system: caches built twice, once direct-mapped and once

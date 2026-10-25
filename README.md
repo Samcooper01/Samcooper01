@@ -20,9 +20,9 @@ Always happy to talk chips, physical design, or open-source silicon. You can fin
 #### 🧱 Physical design
 
 [**learned-synth**](https://github.com/Samcooper01/learned-synth)
-I wanted to know whether the default recipe that open-source logic synthesis
-uses is actually any good. Turns out you can usually beat it by picking a recipe
-for the specific design: on 6 of 9 designs I tried, up to about 5.8% less area
+I wanted to see whether the default recipe that open-source logic synthesis uses
+could be improved on. It usually can, if you pick a recipe for the specific
+design: on 6 of 9 designs I tried, up to about 5.8% less area
 at the same clock speed. I used reinforcement learning and a graph neural
 network to search for recipes, then a genetic algorithm to search further, and
 checked every candidate on a real layout instead of trusting gate counts. That
